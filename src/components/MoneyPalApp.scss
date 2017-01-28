@@ -1,0 +1,10 @@
+.app {
+    max-width: 600px;
+    margin: 0 auto;
+
+    &__body {
+        max-height: calc(100vh - 155px);
+        overflow: auto;
+        height: 100vh;
+    }
+}
